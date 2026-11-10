@@ -1,4 +1,4 @@
 id: deep-geological-repository
 name: Deep geological repository
-description: "Repository concept and near-field conditions that frame the experiments (canister, buffer, groundwater)."
+description: "Repository concept and near-field conditions that the experiments represent: canister failure, bentonite buffer, groundwater types, anoxic and reducing conditions (hydrogen from iron corrosion) and alpha radiolysis."
 order: 7

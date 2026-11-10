@@ -22,10 +22,14 @@ description: |
   - a fast release of the inventory that is easily accessible to water (gap, cracks, grain boundaries), the
     instant release fraction;
   - a slow release controlled by the dissolution (oxidative or not) of the UO2 matrix, in which most
-    radionuclides are embedded.
+    radionuclides are embedded. Under the anoxic, reducing conditions expected in a repository (hydrogen from
+    the corrosion of the iron canister) the oxidative dissolution is strongly suppressed, which is why the
+    atmosphere and redox conditions are key to interpret and compare results.
 
   An experiment is defined by the fuel and sample (type, burn-up, size and surface area, cladded or not), the
-  leachant (composition, pH, carbonate, chloride), the atmosphere and redox conditions, the temperature, and
+  leachant (composition and pH: bicarbonate, NaCl, bromide, borate, fluoride, sulfate, phosphate, silicate,
+  calcium; synthetic groundwater or bentonite pore water), the atmosphere and redox conditions (air, anoxic,
+  reducing with H2), the temperature, the presence of other solids (e.g. iron, bentonite), and
   how the solution is handled over time. In the SNF database this last aspect is the "Type of experiment":
   Batch (the same solution is sampled over time), Replenishment (the solution is renewed, totally or
   partially, at each sampling) or Dynamic (the solution flows continuously through the sample).
@@ -77,6 +81,18 @@ db_mapping:
     field: type_of_experiment
     excel_header: Type of experiment
     note: "controlled values in the Excel template SAREC_WP8_DataBase_SF-D_v2.0: Batch, Replenishment, Dynamic"
+  - table: nuclear_fuel_data_v2
+    field: atm
+    excel_header: Atmosphere
+    note: leaching atmosphere (with atm_composition)
+  - table: nuclear_fuel_data_v2
+    field: solution_composition
+    excel_header: Solution Composition
+    note: leachant; component concentrations in solution_composition_* (mM)
+  - table: experiment_v2
+    field: solid_present
+    excel_header: Solid Present
+    note: other solids in the vessel during leaching
 
 # --- Sources -----------------------------------------------------------------------------------------
 references:
@@ -110,6 +126,7 @@ examples: []
 authors: ["Amphos 21"]
 reviewers: []
 created: "2026-11-04"
-updated: "2026-11-04"
+updated: "2026-11-09"
 history:
   - {date: "2026-11-04", author: "Amphos 21", change: "first draft, as an example of a filled term"}
+  - {date: "2026-11-09", author: "Amphos 21", change: "leachant, atmosphere and solid present aligned with the SNF database fields; redox context"}

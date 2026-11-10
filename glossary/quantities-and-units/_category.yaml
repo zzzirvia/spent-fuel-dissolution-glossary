@@ -1,4 +1,4 @@
 id: quantities-and-units
 name: Quantities and units
-description: "Physical quantities, units and conventions used to report the data."
+description: "Quantities, units and conventions used to report the data: FIAP, concentrations and amounts in solution, cumulative contact time, inventories in mg/g, uncertainties and replicates."
 order: 6

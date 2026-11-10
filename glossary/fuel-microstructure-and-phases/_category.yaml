@@ -1,4 +1,4 @@
 id: fuel-microstructure-and-phases
 name: Fuel microstructure and phases
-description: "Microstructure of the fuel (grains, grain boundaries, rim, gaps) and the phases it contains or forms."
+description: "Microstructure of the irradiated fuel and the phases it contains or forms: grains and grain size, grain boundaries, high burn-up structure (rim), gap, cracks, fission gas bubbles, metallic (epsilon) particles, and secondary phases precipitated during leaching."
 order: 5

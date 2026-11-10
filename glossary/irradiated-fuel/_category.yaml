@@ -1,4 +1,4 @@
 id: irradiated-fuel
 name: Irradiated fuel
-description: "Irradiation history and the resulting spent fuel: burn-up, power, cooling time and radionuclide inventory."
+description: "Irradiation history and the resulting spent fuel: burn-up (average and local), linear power, irradiation cycles and time, cooling time, fission gas release, dose rate and the radionuclide inventory of the sample (with its uncertainty)."
 order: 3

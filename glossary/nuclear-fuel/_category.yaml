@@ -1,4 +1,4 @@
 id: nuclear-fuel
 name: Nuclear fuel
-description: "Fresh nuclear fuel: fuel types, materials, fabrication and enrichment."
+description: "The fuel as fabricated: fuel type (UO2, MOX, doped UO2), enrichment in U-235 and Pu, reactor type, pellet geometry and cladding."
 order: 2

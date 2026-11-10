@@ -1,4 +1,4 @@
 id: sf-dissolution
 name: Spent fuel dissolution
-description: "Leaching and dissolution of spent fuel: processes, release fractions and matrix dissolution rates."
+description: "Release of radionuclides from spent fuel to water: leaching, instant release fraction (IRF), matrix dissolution and its rate, and the results reported as fractions of inventory in the aqueous phase (FIAP) or amounts in solution."
 order: 4
